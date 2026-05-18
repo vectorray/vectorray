@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Yuto Brown
+# 👋 Hi, I'm Vector Ray
 **AI-Powered Full Stack Developer | React | Node.js | Python | LLM Integration**  
 
 📍 Tokyo, Japan | ✉️ seimoroiyoto@gmail.com | 🌐 [Portfolio](https://yutobrown.vercel.app) | 🐦 [Twitter](https://twitter.com/vector_ray)
