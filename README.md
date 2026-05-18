@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Vector Ray
 **AI-Powered Full Stack Developer | React | Node.js | Python | LLM Integration**  
 
-📍 Tokyo, Japan | ✉️ seimoroiyoto@gmail.com | 🌐 [Portfolio](https://yutobrown.vercel.app) | 🐦 [Twitter](https://twitter.com/vector_ray)
+📍 Tokyo, Japan | ✉️ seimoroiyoto@gmail.com | 🌐 [Portfolio](https://vectorray.vercel.app) | 🐦 [Twitter](https://twitter.com/vector_ray)
 
 ---
 
@@ -94,17 +94,17 @@ I help businesses by:
 ## 📊 GitHub Stats & Activity
 
 ### Last 30 Days Work
-![Yuto's GitHub Last 30 Days](https://github-readme-activity-graph.vercel.app/graph?username=yutobrown&theme=react-dark&hide_border=true&area=true&range=30)
+![Yuto's GitHub Last 30 Days](https://github-readme-activity-graph.vercel.app/graph?username=vectorray&theme=react-dark&hide_border=true&area=true&range=30)
 ![GitHub Streak](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=140&section=footer)
 
 ### Overall Stats
-![Yuto's GitHub stats](https://github-readme-stats.vercel.app/api?username=yutobrown&show_icons=true&theme=radical)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yutobrown&layout=compact&theme=radical)
+![Yuto's GitHub stats](https://github-readme-stats.vercel.app/api?username=vectorray&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vectorray&layout=compact&theme=radical)
 
 ---
 
 ## 🤝 Let's Connect
-- 🌐 [Portfolio](https://yutobrown.vercel.app)  
+- 🌐 [Portfolio](https://vectorray.vercel.app)  
 - 🐦 [Twitter](https://twitter.com/vector_ray)  
 - ✉️ seimoroiyoto@gmail.com  
 
