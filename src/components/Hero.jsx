@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { yuto, bwmap, worldmap } from '../assets';
+import { ace, bwmap, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -42,7 +42,7 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Yuto Brown
+                Ace Johnson
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
@@ -86,8 +86,8 @@ const Hero = () => {
             className="absolute bottom-0 ml-[50vw] right-[0]
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={yuto}
-            alt="yuto"
+            src={ace}
+            alt="ace"
           />
         </div>
       </section>

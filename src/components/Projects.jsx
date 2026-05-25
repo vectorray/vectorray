@@ -17,6 +17,8 @@ const ProjectCard = ({
   active,
   handleClick,
 }) => {
+  const [hovered, setHovered] = useState(false);
+
   return (
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
@@ -51,12 +53,14 @@ const ProjectCard = ({
             className="absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(122,122,122,0.4)] rounded-b-[24px] z-20">
             <div className="absolute inset-0 flex justify-end m-3">
-              <div
-                onClick={() => window.open(repo, '_blank')}
+              <a
+                href={repo}
+                target="_blank"
+                rel="noreferrer"
                 className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
                   flex justify-center items-center cursor-pointer
-                  sm:opacity-[0.9] opacity-[0.8]">
-              </div>
+                  sm:opacity-[0.9] opacity-[0.8]"
+              />
             </div>
 
             <h2
@@ -70,7 +74,10 @@ const ProjectCard = ({
               font-poppins tracking-[1px]">
               {description}
             </p>
-            <button
+            <a
+              href={demo}
+              target="_blank"
+              rel="noreferrer"
               className="live-demo flex justify-between 
               sm:text-[16px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-2 pr-3 
@@ -79,25 +86,16 @@ const ProjectCard = ({
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
-              onClick={() => window.open(demo, '_blank')}
-              onMouseOver={() => {
-                document
-                  .querySelector('.btn-icon')
-                  .setAttribute('src', pineappleHover);
-              }}
-              onMouseOut={() => {
-                document
-                  .querySelector('.btn-icon')
-                  .setAttribute('src', pineapple);
-              }}>
+              onMouseEnter={() => setHovered(true)}
+              onMouseLeave={() => setHovered(false)}>
               <img
-                src={pineapple}
+                src={hovered ? pineappleHover : pineapple}
                 alt="pineapple"
-                className="btn-icon sm:w-[34px] sm:h-[34px] 
+                className="sm:w-[34px] sm:h-[34px] 
                   w-[30px] h-[30px] object-contain"
               />
               LIVE DEMO
-            </button>
+            </a>
           </div>
         </>
       )}

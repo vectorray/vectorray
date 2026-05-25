@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import yuto from './personal/yuto.png';
+import ace from './personal/ace.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -57,7 +57,7 @@ export {
   worldmap,
   logo,
   logotext,
-  yuto,
+  ace,
   backend,
   ux,
   frontend,
