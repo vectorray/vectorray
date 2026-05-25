@@ -52,17 +52,7 @@ const ProjectCard = ({
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
             flex-col bg-[rgba(122,122,122,0.4)] rounded-b-[24px] z-20">
-            <div className="absolute inset-0 flex justify-end m-3">
-              <a
-                href={repo}
-                target="_blank"
-                rel="noreferrer"
-                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
-                  flex justify-center items-center cursor-pointer
-                  sm:opacity-[0.9] opacity-[0.8]"
-              />
-            </div>
-
+            
             <h2
               className="font-bold sm:text-[32px] text-[24px] 
               text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]">

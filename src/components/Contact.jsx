@@ -14,20 +14,50 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
 
-        <div className="mt-10 flex flex-col gap-6 font-poppins">
-          <p className="text-timberWolf font-medium">
-            Feel free to reach out to me via email or connect on LinkedIn.
-          </p>
+        <div className="mt-10 flex flex-col gap-4 font-poppins">
+          <p className="text-timberWolf font-medium">Feel free to reach out via any of the links below:</p>
+
           <a
             href="mailto:seimoroiyoto@gmail.com"
-            className="live-demo flex justify-center sm:gap-4 
-            gap-3 sm:text-[20px] text-[16px] text-timberWolf 
-            font-bold font-beckman items-center py-5
-            whitespace-nowrap sm:w-[200px] sm:h-[50px] 
-            w-[180px] h-[45px] rounded-[10px] bg-night 
-            hover:bg-battleGray hover:text-eerieBlack
-            transition duration-[0.2s] ease-in-out no-underline">
-            Send Email
+            className="text-timberWolf font-medium underline"
+          >
+            Email: seimoroiyoto@gmail.com
+          </a>
+
+          <a
+            href="https://github.com/AceCodeLabs"
+            target="_blank"
+            rel="noreferrer"
+            className="text-timberWolf font-medium underline"
+          >
+            Github: github.com/AceCodeLabs
+          </a>
+
+          <a
+            href="https://ace777-x.bsky.social"
+            target="_blank"
+            rel="noreferrer"
+            className="text-timberWolf font-medium underline"
+          >
+            Bluesky: ace777-x.bsky.social
+          </a>
+
+          <a
+            href="https://ace777-x.medium.com"
+            target="_blank"
+            rel="noreferrer"
+            className="text-timberWolf font-medium underline"
+          >
+            Medium: ace777-x.medium.com
+          </a>
+
+          <a
+            href="https://mastodon.social/@ace777_x"
+            target="_blank"
+            rel="noreferrer"
+            className="text-timberWolf font-medium underline"
+          >
+            Mastodon: mastodon.social/@ace777_x
           </a>
         </div>
       </motion.div>

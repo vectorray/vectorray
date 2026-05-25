@@ -43,12 +43,11 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import project1 from './projects/1.png';
+import project2 from './projects/2.png';
+import project3 from './projects/3.png';
+import project4 from './projects/4.png';
+import project5 from './projects/5.png';
 
 export {
   bwmap,
@@ -86,12 +85,11 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
   coverhunt,
   dcc,
   kelhel,
